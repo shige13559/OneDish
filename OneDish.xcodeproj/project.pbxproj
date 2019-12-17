@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4444F2975BE32C0B7B053173 /* Pods_OneDish.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 138D165EDD8EFCEECB0F8084 /* Pods_OneDish.framework */; };
+		B51C4FA423A6331C00DE061D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B51C4FA323A6331C00DE061D /* GoogleService-Info.plist */; };
+		B5A070FB23A7D2100072A67C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A070FA23A7D2100072A67C /* LoginViewController.swift */; };
+		B5A070FD23A7D4270072A67C /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A070FC23A7D4270072A67C /* WelcomeViewController.swift */; };
+		B5DC37F423A6287F0036468F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DC37F323A6287F0036468F /* AppDelegate.swift */; };
+		B5DC37F623A6287F0036468F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DC37F523A6287F0036468F /* SceneDelegate.swift */; };
+		B5DC37FB23A6287F0036468F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5DC37F923A6287F0036468F /* Main.storyboard */; };
+		B5DC37FD23A6288A0036468F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5DC37FC23A6288A0036468F /* Assets.xcassets */; };
+		B5DC380023A6288A0036468F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5DC37FE23A6288A0036468F /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		138D165EDD8EFCEECB0F8084 /* Pods_OneDish.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneDish.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B51C4FA323A6331C00DE061D /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		B5A070FA23A7D2100072A67C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B5A070FC23A7D4270072A67C /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		B5DC37F023A6287F0036468F /* OneDish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneDish.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5DC37F323A6287F0036468F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B5DC37F523A6287F0036468F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B5DC37FA23A6287F0036468F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5DC37FC23A6288A0036468F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5DC37FF23A6288A0036468F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B5DC380123A6288A0036468F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C73BE20983EA9042416287BC /* Pods-OneDish.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneDish.debug.xcconfig"; path = "Target Support Files/Pods-OneDish/Pods-OneDish.debug.xcconfig"; sourceTree = "<group>"; };
+		D5347914D0564A5D2761421F /* Pods-OneDish.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneDish.release.xcconfig"; path = "Target Support Files/Pods-OneDish/Pods-OneDish.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5DC37ED23A6287F0036468F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4444F2975BE32C0B7B053173 /* Pods_OneDish.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B51C4FA523A634F300DE061D /* objects */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = objects;
+			sourceTree = "<group>";
+		};
+		B51C4FA623A634FE00DE061D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B5A070FA23A7D2100072A67C /* LoginViewController.swift */,
+				B5A070FC23A7D4270072A67C /* WelcomeViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B5DC37E723A6287F0036468F = {
+			isa = PBXGroup;
+			children = (
+				B5DC37F223A6287F0036468F /* OneDish */,
+				B5DC37F123A6287F0036468F /* Products */,
+				FEA361704F81DB9F52003E89 /* Pods */,
+				C1C71CBD029249AA426A38D7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B5DC37F123A6287F0036468F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5DC37F023A6287F0036468F /* OneDish.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5DC37F223A6287F0036468F /* OneDish */ = {
+			isa = PBXGroup;
+			children = (
+				B51C4FA623A634FE00DE061D /* Controllers */,
+				B51C4FA523A634F300DE061D /* objects */,
+				B5DC37F323A6287F0036468F /* AppDelegate.swift */,
+				B5DC37F523A6287F0036468F /* SceneDelegate.swift */,
+				B5DC37F923A6287F0036468F /* Main.storyboard */,
+				B5DC37FC23A6288A0036468F /* Assets.xcassets */,
+				B5DC37FE23A6288A0036468F /* LaunchScreen.storyboard */,
+				B5DC380123A6288A0036468F /* Info.plist */,
+				B51C4FA323A6331C00DE061D /* GoogleService-Info.plist */,
+			);
+			path = OneDish;
+			sourceTree = "<group>";
+		};
+		C1C71CBD029249AA426A38D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				138D165EDD8EFCEECB0F8084 /* Pods_OneDish.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FEA361704F81DB9F52003E89 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C73BE20983EA9042416287BC /* Pods-OneDish.debug.xcconfig */,
+				D5347914D0564A5D2761421F /* Pods-OneDish.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5DC37EF23A6287F0036468F /* OneDish */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5DC380423A6288A0036468F /* Build configuration list for PBXNativeTarget "OneDish" */;
+			buildPhases = (
+				A4BC00ECFD4F8442AA0E2EE4 /* [CP] Check Pods Manifest.lock */,
+				B5DC37EC23A6287F0036468F /* Sources */,
+				B5DC37ED23A6287F0036468F /* Frameworks */,
+				B5DC37EE23A6287F0036468F /* Resources */,
+				0D1521BA72FF5B107D8358CE /* [CP] Embed Pods Frameworks */,
+				246A0F1D28269018E0790EA6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneDish;
+			productName = OneDish;
+			productReference = B5DC37F023A6287F0036468F /* OneDish.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5DC37E823A6287F0036468F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = geshi;
+				TargetAttributes = {
+					B5DC37EF23A6287F0036468F = {
+						CreatedOnToolsVersion = 11.2;
+					};
+				};
+			};
+			buildConfigurationList = B5DC37EB23A6287F0036468F /* Build configuration list for PBXProject "OneDish" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5DC37E723A6287F0036468F;
+			productRefGroup = B5DC37F123A6287F0036468F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5DC37EF23A6287F0036468F /* OneDish */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5DC37EE23A6287F0036468F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5DC380023A6288A0036468F /* LaunchScreen.storyboard in Resources */,
+				B51C4FA423A6331C00DE061D /* GoogleService-Info.plist in Resources */,
+				B5DC37FD23A6288A0036468F /* Assets.xcassets in Resources */,
+				B5DC37FB23A6287F0036468F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D1521BA72FF5B107D8358CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OneDish/Pods-OneDish-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OneDish/Pods-OneDish-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OneDish/Pods-OneDish-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		246A0F1D28269018E0790EA6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OneDish/Pods-OneDish-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OneDish/Pods-OneDish-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OneDish/Pods-OneDish-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4BC00ECFD4F8442AA0E2EE4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OneDish-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5DC37EC23A6287F0036468F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5A070FB23A7D2100072A67C /* LoginViewController.swift in Sources */,
+				B5A070FD23A7D4270072A67C /* WelcomeViewController.swift in Sources */,
+				B5DC37F423A6287F0036468F /* AppDelegate.swift in Sources */,
+				B5DC37F623A6287F0036468F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B5DC37F923A6287F0036468F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5DC37FA23A6287F0036468F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5DC37FE23A6288A0036468F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5DC37FF23A6288A0036468F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5DC380223A6288A0036468F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5DC380323A6288A0036468F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5DC380523A6288A0036468F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C73BE20983EA9042416287BC /* Pods-OneDish.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RYLN77KXTR;
+				INFOPLIST_FILE = OneDish/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.OneDish.OneDish;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5DC380623A6288A0036468F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5347914D0564A5D2761421F /* Pods-OneDish.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RYLN77KXTR;
+				INFOPLIST_FILE = OneDish/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.OneDish.OneDish;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5DC37EB23A6287F0036468F /* Build configuration list for PBXProject "OneDish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5DC380223A6288A0036468F /* Debug */,
+				B5DC380323A6288A0036468F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5DC380423A6288A0036468F /* Build configuration list for PBXNativeTarget "OneDish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5DC380523A6288A0036468F /* Debug */,
+				B5DC380623A6288A0036468F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5DC37E823A6287F0036468F /* Project object */;
+}
